@@ -1,0 +1,43 @@
+{
+    "name": "auto-code",
+    "displayName": "vscode-auto-code",
+    "description": "VSCode自动补全代码插件",
+    "keywords": [
+        "vscode",
+        "autoCode"
+    ],
+    "version": "1.0.1",
+    "publisher": "wk-99",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./src/extension",
+    "contributes": {
+	},
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "bugs": {
+        "url": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/weikai98/auto_code.git"
+    },
+    "homepage": ""
+}
