@@ -28,14 +28,14 @@
 	"calendar": {
 		"body": [
 			"<mu-calendar",
-      "language=\"en\"",
-      "v-model=\"\"",
-      "select-mode='date'",
-      ":range-start=\"rangeStart\"",
-      ":range-end=\"rangeEnd\"",
-      ":marked-dates = \"markedDates\"",
-      "style=\"height: 400px; width: 600px;\">",
-    	"</mu-calendar>"
+                          "language=\"en\"",
+                          "v-model=\"\"",
+                          "select-mode='date'",
+                          ":range-start=\"rangeStart\"",
+                          ":range-end=\"rangeEnd\"",
+                          ":marked-dates = \"markedDates\"",
+                          "style=\"height: 400px; width: 600px;\">",
+    	                 "</mu-calendar>"
 		],
 		"describe": ""
 	}
